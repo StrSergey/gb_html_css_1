@@ -1,0 +1,751 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/*  =====HEADER=====  */
+
+.main-header {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    color: #fff;
+    font-family: Arial;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrp {
+    width: 458px;
+    float: left;
+}
+
+.main-header-title {
+    margin: 0 0 35px 0;
+    font-size: 60px;
+    line-height: 0.9;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-header-list {
+    padding: 0 0 0 30px;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.main-header-list-item {
+    list-style-type: none;
+    position: relative;
+}
+
+.main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    background-image: url("../img/check_icon.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+    left: -29px;
+}
+
+.main-header-img {
+    display: block;
+    width: 469px;
+    min-height: 233px;
+    float: right;
+    background-color: #fff;
+    object-fit:none ;
+}
+
+/*  =====HEADER=====  */
+
+.content {
+    font-family: Arial;
+}
+
+/*  =====about-product=====  */
+
+.about-product {
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.about-product-more {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    width: 649px;
+    float: left;
+}
+
+h3 {
+    margin: 0 auto;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+video {
+    background-color: #445161;
+    width: 430px;
+    float: right;
+    display: block;
+    margin-bottom: 50px;
+    outline: none;
+}
+
+/*  =====about-product=====  */
+/*  =====dignity=====  */
+
+.dignity {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    clear: both;
+    outline: none;
+}
+
+.dignity-title {
+    width: 100%;
+    margin: 0 0 29px 0;
+    text-align: center;
+    font-family: arial;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 30px;
+    color: #445161;
+    line-height: 1.2;
+}
+
+.dignity-item-wrp {
+    width: 50%;
+}
+
+.dignity-item {
+    margin: 0 0 25px 0;
+}
+
+.dignity-item summary {
+    outline: none;
+}
+
+.dignity-item summary {
+    display: block;
+    position: relative;
+    padding: 0 0 0 40px;
+}
+
+.dignity-item summary::-webkit-details-marker {
+    display: none
+}
+
+.dignity-item summary:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+}
+
+details[open] summary:before {
+    content: "-";
+}
+
+/*  =====dignity=====  */
+/*  =====screenshots=====  */
+
+.screenshots {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots-title {
+    display: block;
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: #445161;
+    line-height: 1.2;
+    width: 100%;
+    font-weight: 400;
+}
+
+.screenshots-item {
+    width: 574px;
+    margin: 0 0 30px 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+.screenshots-item:nth-child(3),
+.screenshots-item:nth-child(5) {
+    float: right;
+}
+
+.screenshots-item:nth-child(4),
+.screenshots-item:nth-child(5) {
+    margin-bottom: ;
+}
+
+.screenshot-img {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 0 15px 0 0;
+    float: left;
+    background-color: #445161;
+    /*картинку просто обрезал, растягивать не стал*/
+    object-fit: Cover;
+}
+
+.screenshots-item-desc {
+    margin: 0;
+}
+
+.screenshots-item-title {
+    margin: 0 0 15px 0;
+    color: #445161;
+    text-align: left;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.screenshots-item-txt {
+    margin: 0;
+    color: #333333;
+    text-align: justify;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/*  =====screenshots=====  */
+/*  =====reviews=====  */
+
+.reviews {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.reviews-title {
+    display: block;
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: #445161;
+    line-height: 1.2;
+    width: 100%;
+    font-weight: 400;
+}
+
+.reviews-item {
+    width: 574px;
+    margin: 0 0 30px 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+.reviews-item:nth-child(3),
+.reviews-item:nth-child(5) {
+    float: right;
+}
+
+.reviews-item:nth-child(4),
+.reviews-item:nth-child(5) {
+    margin-bottom: ;
+}
+
+.reviews-img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin: 0 16px 0 0;
+    float: left;
+    border-radius: 50%;
+    background-color: #445161;
+}
+
+.reviews-item-desc {
+    margin: 0;
+    margin-left: 105px;
+    padding: 16px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    position: relative;
+}
+
+.reviews-item-desc:before {
+    content: "";
+    display: block;
+    border: 14px solid transparent;
+    border-right: 14px solid #ebebeb;
+    position: absolute;
+    top: 23.5px;
+    left: -29px;
+}
+
+.reviews-item-quote {
+    margin: 0 0 15px 0;
+    color: #333333;
+    text-align: left;
+    font-family: arial;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.reviews-item-cite {
+    margin: 0;
+    color: #989898;
+    text-align: justify;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+/*  =====reviews=====  */
+/*  =====buy=====  */
+
+.buy {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px 145px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    clear: both;
+}
+
+/*
+.buy:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}*/
+
+.buy-title {
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: #445161;
+    line-height: 1.2;
+    width: 100%;
+    font-weight: 400;
+}
+
+.buy-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #445162;
+    border-radius: 5px;
+    background-color: #445162;
+}
+
+.buy-item-title {
+    margin: 0;
+    width: 100%;
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    line-height: 30px;
+    font-weight: 400;
+    background: #445162;
+}
+
+.buy-item-cost {
+    margin: 0;
+    width: 100%;
+    padding: 18px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    color: #445162;
+    line-height: 30px;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+.buy-item-descrpt {
+    margin: 0;
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    line-height: 24px;
+    font-weight: 400;
+    background: #445162;
+    list-style-position: inside;
+}
+
+
+button {
+    display: block;
+    width: 260px;
+    margin: 0px auto 20px auto;
+    padding: 14px 14px;
+    box-sizing: border-box;
+    border: 1px solid #445162;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #445162;
+    word-break: break-all;
+    outline: none;
+}
+
+/* "подпрыгивание" - подглядел, но фрейм еще не знаю */
+@keyframes bounce {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+
+button:hover {
+    display: block;
+    width: 260px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 5px;
+    background-color: #445162;
+    color: #ffffff;
+    word-break: break-all;
+    /* "подпрыгивание" */
+    animation: bounce 1s;
+}
+
+button:active {
+    border: 1px solid #445162;
+    background-color: #ffffff;
+    color: #445162;
+}
+
+.buy:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+/*  =====buy=====  */
+/*  =====contacts=====  */
+
+.contacts {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #445161;
+    box-sizing: border-box;
+    clear: both;
+    justify-content: center;
+}
+
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 1280px;
+}
+
+.contacts:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.contacts-title {
+    display: block;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: #ffffff;
+    line-height: 36px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.contacts-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 21px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #445161;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.contacts-form input[type="text"]:hover,
+.contacts-form input[type="email"]:hover,
+.contacts-form textarea:hover {
+    background-color: #BDC9D8;
+    color: #445161;
+}
+
+.contacts-form input[type="text"]:hover::placeholder,
+.contacts-form input[type="email"]:hover::placeholder,
+.contacts-form textarea:hover::placeholder {
+    color: #445161;
+}
+
+.contacts-form textarea {
+    width: 500px;
+    height: 170px;
+}
+
+input[placeholder],
+textarea[placeholder] {
+    text-overflow: ellipsis;
+    font-family: Arial;
+    color: #445161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contacts-form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #445161;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+}
+
+.contacts-form input[type="submit"]:hover {
+    animation: bounce 1s;
+    background-color: #445161;
+    color: white;
+}
+
+.contacts-form input[type="submit"]:active {
+    background-color: #ffffff;
+    color: #445161;
+}
+}
+
+.contacts-form-contact {
+    width: 240px;
+    height: 300px;
+}
+
+.contacts-skype,
+.contacts-icq,
+.contacts-mail,
+.contacts-tel {
+    display: flex;
+    margin-bottom: 16px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    width: 100%;
+    padding: 0 0 0 3px;
+}
+
+/*не получилось выставить иконки в одну вертикальную линию. или текст начинает разбегаться или иконки надо одного размера. или вообще иконки добавлять не как псевдоэлемент. и вообще это должны быть ссылки (но потренировался с псевдоэлементами) в fontawesome не нашел icq - оставил картинки из макета. ссылками отработал в соц.сетях*/
+.contacts-skype:before {
+    content: url("../img/skype_icon.png");
+    position: relative;
+    left: -3px;
+}
+
+.contacts-icq:before {
+    content: url("../img/icq_icon.png");
+    position: relative;
+    left: -3px;
+}
+
+.contacts-mail:before {
+    content: url("../img/email_icon.png");
+    position: relative;
+    left: -5px;
+}
+
+.contacts-tel:before {
+    content: url("../img/phone_icon.png");
+    position: relative;
+    left: -3px;
+}
+
+.contacts-social {
+    font-size: 18px;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-linkedin,
+.fa-google,
+.fa-youtube {
+    color: #445161;
+}
+
+.fa-circle {
+    color: #ffffff;
+}
+
+
+.fa-stack:hover {
+    animation: bounce 0.5s;
+}
+
+
+.fa-circle:active {
+    color: red;
+}
+
+
+.fa-twitter:active {
+    color: darkgray;
+}
+
+.fa-facebook:active {
+    color: darkgray;
+}
+
+.fa-linkedin:active {
+    color: darkgray;
+}
+
+.fa-google:active {
+    color: darkgray;
+}
+
+.fa-youtube:active {
+    color: darkgray;
+}
+
+/*  =====contacts=====  */
+
+.footer {
+    background-color: #f5f5f5;
+    display: block;
+    margin: 0;
+    padding: 10px 0 5px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial;
+    color: #445161;
+    line-height: 2;
+}
